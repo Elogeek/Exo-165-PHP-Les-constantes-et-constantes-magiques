@@ -9,9 +9,21 @@
  *    longueur de la chaîne de la troisième constante ( attention aux priorités )
  */
 // TODO Votre code ici.
+define("CONSTANT", "12");
 
+define("constant","2");
+
+$result = CONSTANT * constant;
+echo $result ."<br>";
+
+define("constannt", "PHP it's cool");
+$x = (CONSTANT * constant) * strlen(constannt);
+echo $x;
 
 /**
  * 6. Utilisez la bonne constante magique et éventuellement la bonne fonction pour afficher un maximum d'informations sur la page actuelle4
  */
 // TODO Votre code ici.
+
+$magic = define("constante", " ");
+echo $magic;
